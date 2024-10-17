@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.mandem .pic{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.mandem .nice{
+    width: 200px;
+    height: 200px;
+    border-radius: 200px;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.mandem .pic:hover{
+    opacity: .0;
+    transition: 3s;
+}
+nav p{
+    color: white;
+    font-weight: bold;
+    margin-left: 30px;
+    font-size: 30px;
+}
+@media (min-width: 820px) {
+    .mandem img{
+        width: 100px;
+        height: 100px;
+        height: 100px;
+    }
+}
+
+
+@media (max-width: 715px) {
+    .hero  {
+        font-size: 15px;
+    }
+    .detel h1{
+        font-size: 30px;
+    }
+    .detel p{
+        font-size: 15px;
+    }
+    .detel img{
+        font-size: 5%;
+    }
+}
+@media (max-width: 693px) {
+    .hero  {
+        font-size: 10px;
+    }
+    .detel p{
+        font-size: 13px;
+    }
+}
+@media (max-width: 586px) {
+    .hero  {
+        font-size: 8px;
+    }
+    /*.detel h1{
+        font-size: px;
+    }*/
+    .detel p{
+        font-size: 11px;
+    }
+}
+@media (max-width: 541px) {
+    .hero  {
+        font-size: 7px;
+    }
+    nav h3{
+    margin-left: 0px;
+    }
+    .detel h1{
+        font-size: 17px;
+    }
+    .detel p{
+        font-size: 11px;
+    }
+    .detel{
+        margin-top: 100px;
+        background-color: black;
+    }
+}
+@media (max-width: 497px) {
+    .hero  {
+        font-size: 6px;
+    }
+    .detel h1{
+        font-size: 17px;
+    }
+    .detel p{
+        font-size: 10px;
+    }
+        nav ul li{
+    display: inline-block;
+    margin: 5px 15px;
+
+}
+}
+@media (max-width: 431px) {
+    .hero  {
+        font-size: 6px;
+    }
+    .hero h3{
+        margin-left: 0px;
+    }
+    .detel{
+        margin: 55px 50px 30px;
+    }
+    .detel h1{
+        font-size: 17px;
+    }
+    .detel p{
+        font-size: 10px;
+    }
+        nav ul li{
+    display: inline-block;
+    margin: 3px 10px;
+
+}
+}
+@media (max-width: 386px) {
+    .hero  {
+        font-size: 6px;
+    }
+    .hero h3{
+        margin-left: 0px;
+    }
+    .detel h1{
+        font-size: 17px;
+    }
+    .detel p{
+        font-size: 10px;
+    }
+    nav ul li{
+        display: inline-block;
+        margin: 3px 7px;
+    
+    }
+
+}
+@media (max-width: 320px) {
+    .hero h3{
+        margin-top: 5px;
+    }
+    nav ul{
+        width: 250px;
+    }
+}
+
